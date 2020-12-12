@@ -1,0 +1,450 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#333333",
+    "color_primary_color": "#333333",
+    "color_primary_button_text": "#ffffff",
+    "color_sale_badge": "#c8493f",
+    "color_borders": "#e8e8e8",
+    "color_form": "#f4f4f4",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#333333",
+    "image_overlay_opacity": 25,
+    "type_header_font": "lato_n4",
+    "type_header_base_size": "28px",
+    "type_base_font": "lato_n4",
+    "type_base_size": "15px",
+    "type_button_base_size": "14px",
+    "type_navigation_base_size": "16px",
+    "cart_enable_ajax": true,
+    "show_breadcrumb_nav": true,
+    "share_image": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/naturalmenteecologicosmx",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/naturalmenteecologicosmx",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "main_blog": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Envios_526cb189-3bd6-4ef4-8454-3e2f4b79dba1.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#d9d9d9",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "Lato",
+    "checkout_body_font": "Lato",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
+          },
+          "1561738532186": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "main-menu"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "1561738532186"
+        ],
+        "settings": {
+          "show_payment_icons": true
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_pagina_nuevo_gris.png",
+          "logo_max_width": "400",
+          "show_announcement": true,
+          "home_page_only": true,
+          "announcement_text": "EN APOYO A LA SITUACIÓN ACTUAL, envío gratis en pedidos superiores a $699 mxn. ÁNIMO MÉXICO.",
+          "announcement_link": "",
+          "tagline": "<p>Mantente sano. Por favor l&aacute;vate las manos y mant&eacute;n distanciamiento social.<\/p>\n<p>Sigue cuentas oficiales.&nbsp;<\/p>\n<p>Les queremos&nbsp;&hearts;︎<\/p>"
+        }
+      },
+      "sidebar": {
+        "type": "sidebar",
+        "settings": {
+          "main_menu_link_list": "main-menu"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "vendor_show": false,
+          "collection_sort_enable": true,
+          "collection_tag_enable": false
+        }
+      },
+      "1561738905232": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Recibir información exclusiva de Naturalmente",
+          "subtext": "<p>Capacitaci&oacute;n, descuentos exclusivos y nuevos productos. Directamente a tu bandeja de entrada.<\/p>"
+        }
+      },
+      "1561762571536": {
+        "type": "slideshow",
+        "blocks": {
+          "1586477560913": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Copia_de_slide6_3_846f0b08-2ec0-45c3-bbb1-08e0201a53d7.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#865900",
+              "text_alignment": "left",
+              "slide_heading": "",
+              "button_label": "¡Lo quiero!",
+              "button_link": "shopify:\/\/products\/kit-mi-primera-planta"
+            }
+          },
+          "1585435793325": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Copia_de_slide6_7a72599d-bf86-4742-b0d7-ac116abdca3c.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "rgba(0,0,0,0)",
+              "text_alignment": "right",
+              "slide_heading": "Image slide",
+              "button_label": "Comprar",
+              "button_link": "shopify:\/\/products\/copia-de-desodorante-mineral"
+            }
+          },
+          "1584562962093": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide6_cb3486e8-8070-41d2-bfe9-1e354e2ba428.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "slide_heading": "Image slide",
+              "button_label": "Más información",
+              "button_link": "shopify:\/\/pages\/covid-19"
+            }
+          },
+          "1563855094614": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SLIDE_4_1716cb7f-3785-4783-b6b6-8d55a8155018.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "left",
+              "slide_heading": "",
+              "button_label": "Enviar mensaje",
+              "button_link": "https:\/\/bit.ly\/30TOBWv"
+            }
+          },
+          "1561762571536-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mapa_nuevo_cover.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "rgba(0,0,0,0)",
+              "text_alignment": "left",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1561762682819": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide32020_502cc927-c356-49b5-a369-0b81ff2b8649.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/linea-cero-desperdicio"
+            }
+          }
+        },
+        "block_order": [
+          "1586477560913",
+          "1585435793325",
+          "1584562962093",
+          "1563855094614",
+          "1561762571536-0",
+          "1561762682819"
+        ],
+        "settings": {
+          "slider_height": "small",
+          "slider_home_auto": true,
+          "slider_home_rate": 5,
+          "slider_home_transition": "slide",
+          "text_size": "small"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_quantity_enable": false,
+          "vendor_show": false,
+          "social_sharing_products": true,
+          "product_description_position": "below",
+          "show_extra_tab": false,
+          "extra_tab_content": "",
+          "product_image_zoom_type": "lightbox",
+          "enable_payment_button": true,
+          "add_to_cart_width": "regular"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "También te puede interesar",
+          "vendor_show": false
+        }
+      },
+      "1562391404148": {
+        "type": "collection-list",
+        "blocks": {
+          "1583553297816": {
+            "type": "collection",
+            "settings": {
+              "collection": "gel-desinfectante-alcohol-etilico-70"
+            }
+          },
+          "1562391692414": {
+            "type": "collection",
+            "settings": {
+              "collection": "desodorantes-en-barra"
+            }
+          },
+          "1562391840220": {
+            "type": "collection",
+            "settings": {
+              "collection": "balsamo-labial"
+            }
+          },
+          "1562391726540": {
+            "type": "collection",
+            "settings": {
+              "collection": "humectantes-solidos"
+            }
+          },
+          "1562391798753": {
+            "type": "collection",
+            "settings": {
+              "collection": "cepillos-dentales"
+            }
+          },
+          "1562391404148-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "mascarillas-de-arcillas-y-barros"
+            }
+          },
+          "1562391404148-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "jabon-en-barra"
+            }
+          },
+          "1562391569036": {
+            "type": "collection",
+            "settings": {
+              "collection": "velas-veganas"
+            }
+          },
+          "1562391705108": {
+            "type": "collection",
+            "settings": {
+              "collection": "desodorante-mineral"
+            }
+          },
+          "1562391804732": {
+            "type": "collection",
+            "settings": {
+              "collection": "acido-hialuronico"
+            }
+          },
+          "1583553213301": {
+            "type": "collection",
+            "settings": {
+              "collection": "aceite-esenciales-topicos"
+            }
+          },
+          "1583553488563": {
+            "type": "collection",
+            "settings": {
+              "collection": "hogar-a-granel"
+            }
+          }
+        },
+        "block_order": [
+          "1583553297816",
+          "1562391692414",
+          "1562391840220",
+          "1562391726540",
+          "1562391798753",
+          "1562391404148-2",
+          "1562391404148-1",
+          "1562391569036",
+          "1562391705108",
+          "1562391804732",
+          "1583553213301",
+          "1583553488563"
+        ],
+        "settings": {
+          "title": "Lista de colecciones",
+          "grid": 3
+        }
+      },
+      "1563849248732": {
+        "type": "featured-content",
+        "settings": {
+          "section_title": "¡Productos mexicanos de cuidado personal!",
+          "text": "<p>Regresemos a lo natural, lo mejor para tu cuerpo y el medio ambiente.&nbsp;<\/p>\n<p><\/p>",
+          "text_size": "large"
+        }
+      }
+    },
+    "content_for_index": [
+      "1563849248732",
+      "1561762571536",
+      "1562391404148",
+      "1561738905232"
+    ]
+  },
+  "presets": {
+    "Light": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#333333",
+      "color_primary_color": "#333333",
+      "color_primary_button_text": "#ffffff",
+      "color_sale_badge": "#c8493f",
+      "color_borders": "#e8e8e8",
+      "color_form": "#f4f4f4",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#333333",
+      "image_overlay_opacity": "25",
+      "type_header_font": "times_new_roman_n4",
+      "type_header_base_size": "28px",
+      "type_base_font": "helvetica_n4",
+      "type_base_size": "15px",
+      "type_button_base_size": "14px",
+      "type_navigation_base_size": "16px",
+      "show_breadcrumb_nav": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_page_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-products",
+        "featured-content"
+      ]
+    },
+    "Beauty": {
+      "color_body_bg": "#f7f7f7",
+      "color_body_text": "#3c4049",
+      "color_primary_color": "#d97c76",
+      "color_primary_button_text": "#ffffff",
+      "color_sale_badge": "#d97c76",
+      "color_borders": "#d7d8d2",
+      "color_form": "#ffffff",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3c4049",
+      "image_overlay_opacity": "25",
+      "type_header_font": "pt_serif_n7",
+      "type_header_base_size": "28px",
+      "type_base_font": "pt_serif_n4",
+      "type_base_size": "16px",
+      "type_button_base_size": "12px",
+      "type_navigation_base_size": "16px",
+      "show_breadcrumb_nav": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_page_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-products",
+        "featured-content"
+      ]
+    }
+  }
+}

@@ -157,15 +157,22 @@
               {%- endcapture -%}
 
               <p class="cart__policies txt--emphasis rte">{{ taxes_shipping_checkout }}</p>
+
               <p>
                 <button type="submit" name="update" class="btn btn--secondary update-cart">
                   {% include 'icon-update' %}
                   <span class="icon__fallback-text">{{ 'cart.general.update' | t }}</span>
                 </button>
-                <a class="btn btn--secondary" href="/collections/all">{{ 'cart.general.continue_shopping' | t }}</a>
+                
+                <a class="btn btn--secondary" href="/collections/all">
+                  {{ 'cart.general.continue_shopping' | t }}
+                </a>
               </p>
+
               <p>
-                <button type="submit" name="checkout" class="btn">{{ 'cart.general.checkout' | t }}</button>
+                <button type="submit" name="checkout" class="btn">
+                  {{ 'cart.general.checkout' | t }}
+                </button>
               </p>
             </div>
           </div>
@@ -184,3 +191,23 @@
     {% endif %}
   </div>
 </div>
+
+<!-- This prints the cart items as a JSON -->
+<script>
+  
+  // var cartContents = fetch('/cart.js').then(response => response.json()).then(data => { return data });
+  
+  //var cartContents = fetch('/cart.js').then(response => response.json()).then(data => { console.log(data) });
+
+  /*
+  console.log({{ cart.items | t | json }});
+
+  $.get( "https://3f9d26a48d5bb5e6a1d5a75985bb2a00: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@naturalmente-store.myshopify.com/admin/api/2020-10/orders.json", function( data ) {
+    console.log(data);
+  });
+
+  // $.POST(url, payload, null, "json");  
+
+  $.POST("https://3f9d26a48d5bb5e6a1d5a75985bb2a00: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@naturalmente-store.myshopify.com/admin/api/2020-10/orders.json", cart.items, null, "json");
+*/
+</script>

@@ -1,0 +1,14 @@
+theme new --password=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 --store=poolmx.myshopify.com --name=Subtle2.0
+
+REMEMBER TO RUN:
+theme watch
+
+
+-------------------------------------------------------------------------------
+1. To configure an existing theme, first you must get the theme's ID number with: 
+
+theme get --list -p=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 -s=https://naturalmente-store.myshopify.com
+
+2. Now run this line while changing the -t parameter to the ID of the store that you wish to work with>
+
+theme get -p=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 -s=https://naturalmente-store.myshopify.com -t=82373738611

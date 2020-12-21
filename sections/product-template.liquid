@@ -141,6 +141,7 @@
               <button type="submit" name="add" id="AddToCart"class="btn product-single__cart-submit{% if section.settings.add_to_cart_width == 'full_width' %} btn--full{% endif %}{% if section.settings.enable_payment_button %} shopify-payment-btn btn--secondary{% endif %}">
                 <span id="AddToCartText">{{ 'products.product.add_to_cart' | t }}</span>
               </button>
+              
               {% if section.settings.enable_payment_button %}
                 {{ form | payment_button }}
               {% endif %}

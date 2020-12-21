@@ -195,19 +195,31 @@
 <!-- This prints the cart items as a JSON -->
 <script>
   
+  apiUrl = 'https://61fbb4ebe509b570e7e7c2e2d9967cf5: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@naturalmente-store.myshopify.com/admin/api/2020-10/draft_orders';
+
   // var cartContents = fetch('/cart.js').then(response => response.json()).then(data => { return data });
   
-  //var cartContents = fetch('/cart.js').then(response => response.json()).then(data => { console.log(data) });
+  // var cartContents = fetch('/cart.js').then(response => response.json()).then(data => { console.log(data) });
 
-  /*
-  console.log({{ cart.items | t | json }});
+  
+  //console.log({{ cart.items | t | json }});
 
-  $.get( "https://3f9d26a48d5bb5e6a1d5a75985bb2a00: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@naturalmente-store.myshopify.com/admin/api/2020-10/orders.json", function( data ) {
+  // $.POST(url, payload, null, "json");  
+  
+  $.ajax({
+       url: apiUrl + '/585407758451.json',
+       type: 'DELETE',
+       success: function(result) {
+          console.log('You deleted that thing!');
+       }
+  });
+
+  // This post is just about to work, I think.
+  // $.post("https://61fbb4ebe509b570e7e7c2e2d9967cf5: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@naturalmente-store.myshopify.com/admin/api/2020-10/draft_orders.json", cartContents);
+  
+  /* This here works */
+  $.get( apiUrl + ".json", function( data ) {
     console.log(data);
   });
 
-  // $.POST(url, payload, null, "json");  
-
-  $.POST("https://3f9d26a48d5bb5e6a1d5a75985bb2a00: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@naturalmente-store.myshopify.com/admin/api/2020-10/orders.json", cart.items, null, "json");
-*/
 </script>
